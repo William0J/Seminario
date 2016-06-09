@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Ubuntu:400,500,700|Droid+Sans:400,700);
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	color: fuchsia;
+	font-size: 3.5em;
+}
+h2, h3 {
+	font-family: 'Droid Sans', sans-serif;
+}
+p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.25em
+}
+
+body {
+	background-color: cyan;
+}
+.container {
+	max-width: 768px;
+	background-color: white;
+}
+header {
+	background-color: black;
+}
+.tab-pane a {
+	text-decoration: none;
+	color: black;
+}
+.btn {
+	background-color: fuchsia;
+	color: black;
+}
+.btn:hover {
+	background-color: fuchsia;
+	color: white;
+}
+img {
+	width: 100%;
+}
+header div{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.pic {
+	margin: 10px;
+}
+.modal-content form {
+	margin: 10px;
+}
+.provincias ul{
+	list-style: none;
+}
+.provincias ul li a {
+	text-decoration: none;
+	font-size: 2em;
+	color: black;
+}
+.provincias ul li {
+	text-align: center;
+}
+.provincias ul li a:hover {
+	color: cyan;
+}
+.provincias .dropdown button {
+	font-size: 1.5em;
+}
+.sto-dgo ul li a {
+	color: black;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+.cabana {
+	margin-top: 15px;
+	padding: 5px;
+}
+.cabana-txt p {
+	text-align: left;
+}
+.cabana button {
+	float: right;
+}
+footer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.rate a {
+	text-decoration: none;
+	color: cyan;
+}
+.rate a:hover {
+	text-decoration: none;
+	color: fuchsia;
+}
+#review {
+	max-height: 500px;
+	overflow: scroll;
+}
+#review article {
+	width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.rev {
+	background-color: grey;
+}
+.rev p {
+	text-align: left;
+	font-size: 
+}
+.tab-pane img {
+	border: 5px solid cyan;
+	border-radius: 45%;
+}
+iframe {
+	width: 98%;
+	height: auto;
+	min-height: 450px;
+}

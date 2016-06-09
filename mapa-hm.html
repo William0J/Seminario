@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container" align="center">
+	<!-- 				Content				-->
+	
+	<header class="row">
+
+
+		<div>
+			<button class="btn btn-primary col-xs-1 col-sm-1" onclick="goBack()"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></button>
+
+			<script>
+			function goBack() {
+			    window.history.back();
+			}
+			</script>
+		</div>
+		<div class="dropdown col-xs-1 col-sm-1">
+				<button id="dLabel" class="btn btn-primary" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    	<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+			    <span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu col-xs-12 col-sm-12" aria-labelledby="dLabel">
+			    	<li>
+						<a href="index.html"><i class="fa fa-map-marker" aria-hidden="true"></i>Provincias</a>
+					</li><hr>
+					<li>
+						<a href="store.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Noticias</a>
+					</li><hr>
+					<li>
+						<a href="about.html"><i class="fa fa-cog" aria-hidden="true"></i>Ajustes</a>
+					</li><hr>
+				</ul>
+			</div>
+
+			<div class="title col-xs-9 col-sm-9">
+				<h1>Honey Moon</h1>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+
+				<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  					<div class="modal-dialog modal-sm">
+    				<div class="modal-content">
+     					 <!-- Use of this code assumes agreement with the Google Custom Search Terms of Service. -->
+						<!-- The terms of service are available at http://www.google.com//cse/docs/tos.html -->
+						<form name="cse" id="searchbox_demo" action="https://www.google.com/cse">
+						  <input type="hidden" name="cref" value="" />
+						  <input type="hidden" name="ie" value="utf-8" />
+						  <input type="hidden" name="hl" value="" />
+						  <input name="q" type="text" size="35" />
+						  <input type="submit" name="sa" value="Search" />
+						</form>
+						<script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+   					 </div>
+  					</div>
+				</div>
+			
+	</header>
+	<hr>
+	
+	<section class="row">
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.314152033161!2d-69.9939506855846!3d18.424040076929035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDI1JzI2LjUiTiA2OcKwNTknMzAuMyJX!5e0!3m2!1ses-419!2sdo!4v1465509774931" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+	</section>
+	<hr>
+		
+	<footer class="row">
+		<div class="banner col-xs-12 col-sm-12">
+			<a href="http://www.durexusa.com/"><img src="img/durex.jpg" alt=""></a>
+		</div>
+	</footer>
+	</div>
+
+	
+	<!-- 				JAVA				-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+    <script src="https://use.fontawesome.com/d8873828fe.js"></script>
+</body>
+</html>

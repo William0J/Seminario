@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container" align="center">
+	<!-- 				Content				-->
+	
+	<header class="row">
+
+
+		<div>
+			<button class="btn btn-primary col-xs-1 col-sm-1" onclick="goBack()"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></button>
+
+			<script>
+			function goBack() {
+			    window.history.back();
+			}
+			</script>
+		</div>
+		<div class="dropdown col-xs-1 col-sm-1">
+				<button id="dLabel" class="btn btn-primary" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    	<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+			    <span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu col-xs-12 col-sm-12" aria-labelledby="dLabel">
+			    	<li>
+						<a href="index.html"><i class="fa fa-map-marker" aria-hidden="true"></i>Provincias</a>
+					</li><hr>
+					<li>
+						<a href="store.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Noticias</a>
+					</li><hr>
+					<li>
+						<a href="about.html"><i class="fa fa-cog" aria-hidden="true"></i>Ajustes</a>
+					</li><hr>
+				</ul>
+			</div>
+
+			<div class="title col-xs-9 col-sm-9">
+				<h1>Nombre Cabaña</h1>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+
+				<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  					<div class="modal-dialog modal-sm">
+    				<div class="modal-content">
+     					 <!-- Use of this code assumes agreement with the Google Custom Search Terms of Service. -->
+						<!-- The terms of service are available at http://www.google.com//cse/docs/tos.html -->
+						<form name="cse" id="searchbox_demo" action="https://www.google.com/cse">
+						  <input type="hidden" name="cref" value="" />
+						  <input type="hidden" name="ie" value="utf-8" />
+						  <input type="hidden" name="hl" value="" />
+						  <input name="q" type="text" size="35" />
+						  <input type="submit" name="sa" value="Search" />
+						</form>
+						<script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+   					 </div>
+  					</div>
+				</div>
+			
+	</header>
+	<hr>
+	
+	<section id="review" class="row">
+
+	<article class="rev">
+		<h3 class="col-xs-6 col-sm-6">Titulo</h3><div class="col-xs-6 col-sm-6"><h3>3.5/5</h3>
+				<i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star-half-o fa-2x" aria-hidden="true"></i><i class="fa fa-star-o fa-2x" aria-hidden="true"></i></div>
+		<hr>
+		<p class="col-xs-12 col-sm-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quod quasi expedita beatae neque voluptate. Similique aliquam enim alias modi obcaecati nam, doloribus fugit. Fuga soluta ipsam fugiat suscipit molestiae.</p>
+	</article>
+	<article class="rev">
+		<h3 class="col-xs-6 col-sm-6">Titulo</h3><div class="col-xs-6 col-sm-6"><h3>4/5</h3>
+				<i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star-o fa-2x" aria-hidden="true"></i></div>
+		<hr>
+		<p class="col-xs-12 col-sm-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quod quasi expedita beatae neque voluptate. Similique aliquam enim alias modi obcaecati nam, doloribus fugit. Fuga soluta ipsam fugiat suscipit molestiae.</p>
+	</article>
+	<article class="rev">
+		<h3 class="col-xs-6 col-sm-6">Titulo</h3><div class="col-xs-6 col-sm-6"><h3>5/5</h3>
+				<i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
+		<hr>
+		<p class="col-xs-12 col-sm-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quod quasi expedita beatae neque voluptate. Similique aliquam enim alias modi obcaecati nam, doloribus fugit. Fuga soluta ipsam fugiat suscipit molestiae.</p>
+	</article>
+	<article class="rev">
+		<h3 class="col-xs-6 col-sm-6">Titulo</h3><div class="col-xs-6 col-sm-6"><h3>2/5</h3>
+				<i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star-o fa-2x" aria-hidden="true"></i><i class="fa fa-star-o fa-2x" aria-hidden="true"></i><i class="fa fa-star-o fa-2x" aria-hidden="true"></i></div>
+		<hr>
+		<p class="col-xs-12 col-sm-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quod quasi expedita beatae neque voluptate. Similique aliquam enim alias modi obcaecati nam, doloribus fugit. Fuga soluta ipsam fugiat suscipit molestiae.</p>
+	</article>
+
+	</section>
+	<button type="button" class="review-btn btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Escribir Reseña</button>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+     	<form>
+     	 <div class="form-group">
+    		<label for="exampleInputEmail1">Email address</label>
+    		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputTitle">Titulo</label>
+		    <input type="titulo" class="form-control" placeholder="Titulo">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputText">Reseña</label>
+		    <textarea class="form-control" rows="3" placeholder="Escribir Reseña Aqui"></textarea>
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputFile">File input</label>
+		    <input type="file" id="exampleInputFile">
+		  </div>
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox"> Estoy de acuerdo con los <a href="#">terminos de uso</a> de esta aplicacion
+		    </label>
+		  </div>
+		  <button type="submit" class="btn btn-default">Submit</button>
+		</form>
+		    </div>
+		  </div>
+		</div>
+	<hr>	
+		
+	<footer class="row">
+		<div class="banner col-xs-12 col-sm-12">
+			<a href="http://www.durexusa.com/"><img src="img/durex.jpg" alt=""></a>
+		</div>
+	</footer>
+	</div>
+
+	
+	<!-- 				JAVA				-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+    <script src="https://use.fontawesome.com/d8873828fe.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container" align="center">
+	<!-- 				Content				-->
+
+	<header class="row">
+
+
+		<div>
+			<button class="btn btn-primary col-xs-1 col-sm-1" onclick="goBack()"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></button>
+
+			<script>
+			function goBack() {
+			    window.history.back();
+			}
+			</script>
+		</div>
+		<div class="dropdown col-xs-1 col-sm-1">
+				<button id="dLabel" class="btn btn-primary" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    	<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+			    <span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu col-xs-12 col-sm-12" aria-labelledby="dLabel">
+			    	<li>
+						<a href="index.html"><i class="fa fa-map-marker" aria-hidden="true"></i>Provincias</a>
+					</li><hr>
+					<li>
+						<a href="store.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Noticias</a>
+					</li><hr>
+					<li>
+						<a href="about.html"><i class="fa fa-cog" aria-hidden="true"></i>Ajustes</a>
+					</li><hr>
+				</ul>
+			</div>
+
+			<div class="title col-xs-9 col-sm-9">
+				<h1>Provincia</h1>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+
+				<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  					<div class="modal-dialog modal-sm">
+    				<div class="modal-content">
+     					 <!-- Use of this code assumes agreement with the Google Custom Search Terms of Service. -->
+						<!-- The terms of service are available at http://www.google.com//cse/docs/tos.html -->
+						<form name="cse" id="searchbox_demo" action="https://www.google.com/cse">
+						  <input type="hidden" name="cref" value="" />
+						  <input type="hidden" name="ie" value="utf-8" />
+						  <input type="hidden" name="hl" value="" />
+						  <input name="q" type="text" size="35" />
+						  <input type="submit" name="sa" value="Search" />
+						</form>
+						<script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+   					 </div>
+  					</div>
+				</div>
+			
+	</header>
+	<hr>
+		
+		<div class="provincias row">
+			<div class="dropdown col-xs-12 col-sm-12">
+  				<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn">
+   					 Elige una Provincia
+   				 <span class="caret"></span>
+  				</button>
+  				<ul class="dropdown-menu col-xs-12 col-sm-12" aria-labelledby="dLabel">
+    				<li><a href="stodgo.html">Santo Domingo</a></li>	
+					<li><a href="contruction.html">Santiago</a></li>	
+					<li><a href="contruction.html">Azua</a></li>	
+					<li><a href="contruction.html">Bahoruco</a></li>	
+					<li><a href="contruction.html">Barahona</a></li>	
+					<li><a href="contruction.html">Dajab&oacute;</a></li>	
+					<li><a href="contruction.html">Duarte</a></li>	
+					<li><a href="contruction.html">El Seibo</a></li>	
+					<li><a href="contruction.html">El&iacute;as Pi&ntilde;a</a></li>	
+					<li><a href="contruction.html">Espaillat</a></li>	
+					<li><a href="contruction.html">Hato Mayor</a></li>
+					<li><a href="contruction.html">Hermanas Mirabal</a></li>	
+					<li><a href="contruction.html">Independencia</a></li>	
+					<li><a href="contruction.html">La Altagracia</a></li>	
+					<li><a href="contruction.html">La Romana</a></li>	
+					<li><a href="contruction.html">La Vega</a></li>	
+					<li><a href="contruction.html">Mari&aacute; Trinidad S&aacute;nchez</a></li>
+					<li><a href="contruction.html">Monse&ntilde;or Nouel</a></li>
+					<li><a href="contruction.html">Monte Cristi</a></li>
+					<li><a href="contruction.html">Monte Plata</a></li>
+					<li><a href="contruction.html">Pedernales</a></li>
+					<li><a href="contruction.html">Peravia</a></li>
+					<li><a href="contruction.html">Puerto Plata</a></li>
+					<li><a href="contruction.html">Saman&aacute;</a></li>
+					<li><a href="contruction.html">San Crist&oacute;bal</a></li>
+					<li><a href="contruction.html">San Jos&eacute; de Ocoa</a></li>
+					<li><a href="contruction.html">San Juan</a></li>
+					<li><a href="contruction.html">San Pedro de Macor&iacute;s</a></li>
+					<li><a href="contruction.html">Sanch&eacute;z Ram&iacute;rez</a></li>
+					<li><a href="contruction.html">Santiago Rodr&iacute;guez</a></li>
+					<li><a href="contruction.html">Valverde</a></li>
+  				</ul>
+			</div>
+			<div class="pic row">
+				<article class="col-xs-12 col-sm-12">
+					<a href="http://www.durexusa.com/"><img src="img/durex.jpg" alt=""></a>
+				</article>
+			</div>
+				
+		</div>
+	<hr>
+	<footer class="row">
+		<div class="banner col-xs-12 col-sm-12">
+			<img src="http://placehold.it/550x100" alt="">
+		</div>
+	</footer>
+	</div>
+
+	
+	<!-- 				JAVA				-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+    <script src="https://use.fontawesome.com/d8873828fe.js"></script>
+</body>
+</html>
